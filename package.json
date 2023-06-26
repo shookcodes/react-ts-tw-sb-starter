@@ -6,23 +6,21 @@
   "files": [
     "dist/**/*"
   ],
-"main": "./dist/react-ts-tw-starter.umd.cjs",
-"module": "./dist/react-ts-tw-starter.js",
-"types": "./dist/index.d.ts",
+  "main": "./dist/react-ts-tw-starter.umd.cjs",
+  "module": "./dist/react-ts-tw-starter.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build && npx tailwindcss -i src/styles/index.css -o dist/tailwind.css --minify",
+    "build": "tsc && vite build",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
   },
   "dependencies": {
-
+    "tailwindcss": "^3.3.2"
   },
   "devDependencies": {
-        "react": "^18.2.0",
-        "react-dom": "^18.2.0",
     "@storybook/addon-essentials": "7.0.23",
     "@storybook/addon-interactions": "7.0.23",
     "@storybook/addon-links": "7.0.23",
@@ -43,12 +41,14 @@
     "eslint-plugin-storybook": "^0.6.12",
     "postcss": "^8.4.24",
     "prop-types": "15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rollup-plugin-postcss": "^4.0.2",
     "storybook": "7.0.23",
-    "tailwindcss": "^3.3.2",
     "typescript": "^5.0.2",
     "vite": "^4.3.9",
     "vite-plugin-dts": "^2.3.0"
-  }, 
+  },
   "peerDependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"

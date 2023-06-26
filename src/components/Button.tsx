@@ -6,8 +6,9 @@ export interface TestButtonProps {
 }
 
 const Button: FC<TestButtonProps> = () => {
+	// ${styles.btn} 
 	return (
-		<button className={`${styles.btn}  bg-pink-200 px-2`}>
+		<button className={` bg-pink-200 px-2`}>
 			I am a button
 		</button>
 	)
