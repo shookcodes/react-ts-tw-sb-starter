@@ -1,5 +1,5 @@
 import React from "react"
-import Component from "../components/Button.jsx"
+import Component from "../components/Button"
 
 export default {
 	title: "Components/Button",
@@ -12,7 +12,7 @@ export default {
 	},
 }
 
-export const Default = (args) => (
+export const Default = (args: any) => (
 	<div style={{ width: "244px", height: "176px" }}>
 		<Component {...args} />
 	</div>
