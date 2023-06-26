@@ -11,17 +11,18 @@
 "types": "./dist/index.d.ts",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build && npx tailwindcss -i src/styles/index.css -o dist/index.css --minify",
+    "build": "tsc && vite build && npx tailwindcss -i src/styles/index.css -o dist/tailwind.css --minify",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
   },
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+
   },
   "devDependencies": {
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
     "@storybook/addon-essentials": "7.0.23",
     "@storybook/addon-interactions": "7.0.23",
     "@storybook/addon-links": "7.0.23",
@@ -47,5 +48,9 @@
     "typescript": "^5.0.2",
     "vite": "^4.3.9",
     "vite-plugin-dts": "^2.3.0"
+  }, 
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }

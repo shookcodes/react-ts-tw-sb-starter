@@ -1,12 +1,15 @@
 import React, {FC} from "react";
+import styles from './button.module.css'
 
 export interface TestButtonProps {
   text?: string
 }
-// border-2 border-pink-400 px-2
+
 const Button: FC<TestButtonProps> = () => {
 	return (
-		<button className="">I am a button</button>
+		<button className={`${styles.btn}  bg-pink-200 px-2`}>
+			I am a button
+		</button>
 	)
 }
 

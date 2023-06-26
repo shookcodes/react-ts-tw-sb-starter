@@ -1,5 +1,6 @@
 import React from "react"
 import Component from "../components/Button"
+import styles from '../components/button.module.css'
 
 export default {
 	title: "Components/Button",
@@ -21,4 +22,5 @@ export const Default = (args: any) => (
 Default.args = {
 	showButton: true,
 	type: "next",
+	styles: styles,
 }
