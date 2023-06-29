@@ -6,7 +6,7 @@ export interface TestButtonProps {
 }
 
 const DemoButton: FC<TestButtonProps> = ({text}) => {
-  return <button className={`demoButton`}> {text} </button>;
+  return <button className={`demoButton bg-pink-400`}> {text} </button>;
 };
 
 export default DemoButton;
