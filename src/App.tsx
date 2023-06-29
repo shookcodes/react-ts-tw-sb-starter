@@ -1,12 +1,12 @@
 import React from 'react';
-import './styles/index.css';
-// import './styles/tailwind.css';
-import Button from './components/Button';
+import './index.css';
+import DemoButton from './components/DemoButton';
+
 
 function App() {
   return (
     <div>
-      <Button />
+      <DemoButton text="I'm here"/>
     </div>
   );
 }

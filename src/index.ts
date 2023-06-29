@@ -1,3 +1,4 @@
-import Button from './components/Button';
+import './index.css'
+import DemoButton from './components/DemoButton';
 
-export { Button };
+export { DemoButton };
