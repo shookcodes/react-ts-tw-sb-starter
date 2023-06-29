@@ -1,15 +1,4 @@
-/* .btn {
-  @apply flex justify-center items-center transition;
-}
 
-.btn-expand {
-  @apply text-marianDark font-bold hover:text-marianDark/80 transition-all ease-in-out;
+.btn {
+	border: 2px solid blue;
 }
-
-.btn-visitLink {
-  @apply bg-marianDark text-white px-3 py-1 rounded-lg;
-}
-
-.btn-showDetails {
-  @apply bg-marianDark text-white px-2 py-0.5 text-xs font-bold flex justify-center rounded-2xl items-center active:shadow-sm hover:bg-marianDark/80 active:scale-105 origin-center;
-} */
