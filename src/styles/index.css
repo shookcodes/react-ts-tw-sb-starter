@@ -1,7 +1,5 @@
-@import "./button.css";
-/* @import "tailwindcss/base";
-@import "tailwindcss/components";
-@import "tailwindcss/utilities"; */
+@import '../components/button.css';
+
 
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
 
@@ -29,13 +27,4 @@ body {
 code {
 	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
 		monospace;
-}
-
-button {
-	border: 2px solid red;
-	background: pink;
-}
-
-.btn {
-	border: 2px solid black;
 }

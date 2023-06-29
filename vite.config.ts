@@ -21,11 +21,11 @@ export default defineConfig({
 			to: resolve(__dirname, "dist"),
 		},
 	],
-	include: ['tailwind.config.cjs', 'assets/**/*', 'src/**/*'],
-	exclude: ["**/*.stories.tsx",],
+	include: ["tailwind.config.cjs", "assets/**/*", "src/**/*"],
+	exclude: ["**/*.stories.tsx"],
 	plugins: [dts(), react()],
 	rollupOptions: {
-		external: ["react"],
+		external: ["react", /\.css$/],
 		output: {
 			globals: {
 				react: "react",
