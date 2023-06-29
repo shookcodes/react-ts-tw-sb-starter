@@ -1,4 +1,5 @@
 import React, {FC} from "react";
+
 import styles from './button.module.css'
 
 export interface TestButtonProps {
@@ -6,12 +7,9 @@ export interface TestButtonProps {
 }
 
 const Button: FC<TestButtonProps> = () => {
-	// ${styles.btn} 
-	return (
-		<button className={` bg-pink-200 px-2`}>
-			I am a button
-		</button>
-	)
+	// 
+	//  style={{'background':  'pink'}}
+	return <button className={`${styles.btn} `}>I am button</button>
 }
 
 export default Button
