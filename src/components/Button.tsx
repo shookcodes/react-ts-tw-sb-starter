@@ -1,10 +1,10 @@
-import React, {FC} from "react";
+import React, { FC } from 'react';
 export interface TestButtonProps {
-  text?: string
+  text?: string;
 }
 
 const Button: FC<TestButtonProps> = () => {
-	return <button className={`btn`}>I am button</button>
-}
+  return <button className={`btn`}>I am button</button>;
+};
 
-export default Button
+export default Button;
